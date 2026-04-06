@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nombre": "Iron-Dragon (Fan-made)",
+        "tipo": "Acero/Dragón",
+        "habilidad": "Cuerpo Puro",
+        "descripcion": "Un Pokémon creado en un laboratorio local que no aparece en la PokéAPI."
+    },
+    {
+        "id": 2,
+        "nombre": "Spirit-Fox",
+        "tipo": "Fantasma",
+        "habilidad": "Intimidación",
+        "descripcion": "Habita en los archivos locales de este proyecto."
+    }
+]

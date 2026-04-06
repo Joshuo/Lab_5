@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 3: Comparación entre JSON local y API pública</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Centro de Datos Pokemon</h1>
+    </header>
+
+    <main>
+        <section class="data-container">
+            <div class="card" id="local-card">
+                <h2>Inventario Local</h2>
+                <p class="subtitle">Datos controlados (JSON interno)</p>
+                <div id="local-list" class="list-container"></div>
+            </div>
+
+            <div class="card" id="api-card">
+                <h2>PokeAPI: Generacion I</h2>
+                <p class="subtitle">Datos externos (pokeapi.co)</p>
+                <div id="api-list" class="list-container"></div>
+            </div>
+        </section>
+
+        <section class="comparison-section">
+            <h2>Comparación Técnica</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspecto</th>
+                        <th>JSON Local</th>
+                        <th>PokéAPI (Pública)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Origen</strong></td>
+                        <td>Archivo <code>pokemon_local.json</code></td>
+                        <td>Servidores de PokéAPI</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Forma de Acceso</strong></td>
+                        <td>Fetch local (<code>./pokemon_local.json</code>)</td>
+                        <td>Petición HTTP (<code>GET</code>)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Estructura</strong></td>
+                        <td>Creada a medida (Id, Nombre, Tipo)</td>
+                        <td>Compleja (Anidada por la API)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Control</strong></td>
+                        <td>Total (Podemos inventar Pokémon)</td>
+                        <td>Nulo (Solo leemos lo oficial)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Internet</strong></td>
+                        <td>No necesario</td>
+                        <td>Indispensable</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
