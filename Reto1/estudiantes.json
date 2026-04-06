@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Valeria",
+    "apellido": "Montoya",
+    "edad": 20,
+    "estado_civil": "Soltera"
+  },
+  {
+    "id": 2,
+    "nombre": "Carlos",
+    "apellido": "Urbina",
+    "edad": 21,
+    "estado_civil": "Casado, mis papás"
+  },
+  {
+    "id": 3,
+    "nombre": "Elen",
+    "apellido": "Hon",
+    "edad": 19,
+    "estado_civil": "Papa Casada"
+  },
+  {
+    "id": 4,
+    "nombre": "Ailen",
+    "apellido": "Salazar",
+    "edad": 21,
+    "estado_civil": "Soltera"
+  },
+  {
+    "id": 5,
+    "nombre": "Kesly",
+    "apellido": "Rojas",
+    "edad": 21,
+    "estado_civil": "Soltera"
+  },
+  {
+    "id": 6,
+    "nombre": "Eimy",
+    "apellido": "Castro Saldaña",
+    "edad": 21,
+    "estado_civil": "Casada con Egly"
+  }
+]
